@@ -8,7 +8,6 @@
     outline: none;
     font-family: 'Arimo', sans-serif;
 }
-
 i
 {
     font-weight: bold;
@@ -76,7 +75,7 @@ i
 .container_principal_left_btn_subtitulo
 {
     display: flex;
-    padding-top: 2vh;
+    padding-top: 1vh;
 }
 
 
@@ -89,7 +88,7 @@ i
 
 .container_principal_left_pagamento 
 {
-    padding: 4vh 0;
+    padding: 4vh 0vh;
 }
 
 .container_principal_left_pagamento *
@@ -218,6 +217,7 @@ i
     display: flex;
     background-color: orangered;
     padding: 8vh;
+    color: white;
 }
 
 .container_metodo_left
@@ -502,6 +502,7 @@ i
     width: 100%;
     background-color: orangered;
     padding: 8vh;
+    color: white;
 }
 
 .container_garantia_left
@@ -619,10 +620,31 @@ i
         flex-direction: column-reverse;
         width: 100%;
         align-items: center;
+        padding: 0;
     }
     .container_principal_left
     {
         width: 90%;
+        padding: 0;
+        margin: 0;
+    }
+    .container_principal_right
+    {
+        padding: 0;
+        width: 100%;
+    }
+    .container_principal_left_titulo *
+    {
+        font-size: 50px;
+    }
+    .container_principal_left_pagamento *
+    {
+        flex-wrap: wrap;
+        margin: 1vh;
+    }
+    .container_principal_right img
+    {
+        width: 50%;
     }
     .container_frase
     {
@@ -639,6 +661,10 @@ i
         width: 90%;
         padding: 2vh 2vh 8vh 2vh;
     }
+    .container_about
+    {
+        padding: 10vh 0;
+    }
     .container_about_card_grupo
     {
         flex-direction: column;
@@ -646,28 +672,39 @@ i
     }
     .container_about_card
     {
-        width: 70%;
+        width: 80%;
         margin: 2vh;
+    }
+    .container_about_btn
+    {
+        width: 100%;
     }
     .container_about_btn button
     {
-        width: 70%;
+        width: 90%;
     }
     .container_about_btn button:hover
     {
-        width: 80%;
+        width: 95%;
     }
     .container_metodo
     {
-        flex-direction: column
+        flex-direction: column;
+        padding: 10vh 0;
     }
     .container_metodo_left
     {
         width: 100%;
+        padding: 3vh;
     }
     .container_metodo_right
     {
         width: 100%;
+        padding: 3vh;
+    }
+    .container_receber
+    {
+        padding: 10vh 2vh;
     }
     .container_receber_card_grupo
     {
@@ -677,14 +714,19 @@ i
     .container_receber_card
     {
         margin: 2vh;
+        width: 80%;
     }
     .container_receber_btn button
     {
-        width: 70%;
+        width: 80%;
     }
     .container_receber_btn button:hover
     {
-        width: 80%;
+        width: 90%;
+    }
+    .container_alem_receber
+    {
+        padding: 10vh 2vh;
     }
     .container_alem_receber_card_grupo
     {
@@ -693,16 +735,20 @@ i
     }
     .container_alem_receber_card
     {
-        width: 70%;
+        width: 80%;
         margin: 2vh;
     }
     .container_alem_receber_btn button
     {
-        width: 70%;
+        width: 80%;
     }
     .container_alem_receber_btn button:hover
     {
-        width: 80%;
+        width: 90%;
+    }
+    .container_preco
+    {
+        padding: 10vh 2vh;
     }
     .container_preco_btn button
     {
@@ -717,23 +763,34 @@ i
         flex-direction: column;
         align-items: center;
     }
+    .container_garantia img
+    {
+        width: 100%;
+        padding: 2vh 0;
+    }
     .container_garantia_left
     {
         width: 100%;
+        padding: 2vh 0;
     }
     .container_garantia_right
     {
         width: 100%;
+        padding: 2vh 0;
     }
     .container_assistir
     {
         flex-direction: column;
         align-items: center;
     }
+    .container_assistir *
+    {
+        font-size: 40px;
+    }
     .container_assistir_left
     {
         width: 100%;
-        padding: 15vh;
+        padding: 5vh 2vh;
     }
     .container_assistir_right
     {
