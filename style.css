@@ -1,0 +1,750 @@
+@import url('https://fonts.googleapis.com/css2?family=Arimo:wght@500&display=swap');
+
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    font-family: 'Arimo', sans-serif;
+}
+
+i
+{
+    font-weight: bold;
+}
+
+.container_principal
+{
+    width: 100%;
+    display: flex;
+    background-color: black;
+    min-height: 100vh;
+    max-height: auto;
+}
+
+.container_principal_left
+{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 15vh 5% 5vh 5%;
+}
+
+.container_principal_left_titulo *
+{
+    font-size: 60px;
+    color: orangered;
+}
+
+.container_principal_left_subtitulo *
+{
+    font-size: 25px;
+    color: white;
+}
+
+.container_principal_left_btn
+{
+    width: 80%;
+    padding-top: 4vh;
+}
+
+.container_principal_left_btn button
+{
+    border: none;
+    background-color: orangered;
+    font-weight: bold;
+    width: 100%;
+    padding: 2vh;
+    font-size: 28px;
+    font-weight: bold;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+}
+
+.container_principal_left_btn button:hover
+{
+    width: 110%;
+    padding: 4vh 2vh;
+    z-index: 1;
+    transition: 0.5s;
+}
+
+.container_principal_left_btn_subtitulo
+{
+    display: flex;
+    padding-top: 2vh;
+}
+
+
+.container_principal_left_btn_subtitulo *
+{
+    margin: 0 1vh;
+    color: gray;
+    font-size: 16px;
+}
+
+.container_principal_left_pagamento 
+{
+    padding: 4vh 0;
+}
+
+.container_principal_left_pagamento *
+{
+    font-size: 35px;
+    margin: 0 4vh;
+    color: gray;
+}
+
+.container_principal_right
+{
+    width: 50%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container_frase
+{
+    display: flex;
+    background-color: orangered;
+    color: white;
+    padding: 8vh 0;
+}
+
+.container_frase_left
+{
+    width: 50%;
+    padding: 10vh;
+    display: flex;
+    align-items: center;
+    font-size: 20px;
+}
+
+.container_frase_right
+{
+    width: 50%;
+    font-size: 20px;
+    padding: 10vh 5vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.container_about
+{
+    background-color: black;
+    text-align: center;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    padding: 8vh;
+}
+
+.container_about h1
+{
+    color: white;
+    padding-top: 5vh;
+    font-size: 35px;
+}
+
+.container_about_card_grupo
+{
+    padding: 4vh 0;
+    display: flex;
+    justify-content: center;
+}
+
+.container_about_card
+{
+    width: 20%;
+    padding: 4vh;
+    border: 1px solid white;
+    color: white;
+    display: inline-block;
+    margin: 0 5vh;
+    text-align: left;
+    border-radius: 5px;
+    background-color: black;
+}
+
+.container_about_card i
+{
+    font-size: 30px;
+    padding-bottom: 2vh;
+    color: orangered;
+}
+
+.container_about_card p
+{
+    font-size: 18px;
+}
+
+.container_about_btn
+{
+    width: 100%;
+    padding: 5vh;
+}
+
+.container_about_btn button
+{
+    border: none;
+    background-color: orangered;
+    font-weight: bold;
+    width: 30%;
+    padding: 2vh;
+    font-size: 28px;
+    font-weight: bold;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+}
+
+.container_about_btn button:hover
+{
+    width: 50%;
+    padding: 4vh 2vh;
+    z-index: 1;
+    transition: 0.5s;
+}
+
+.container_metodo
+{
+    width: 100%;
+    display: flex;
+    background-color: orangered;
+    padding: 8vh;
+}
+
+.container_metodo_left
+{
+    width: 50%;
+    display: flex;
+    align-items: center;
+    padding: 7vh 10%;
+    font-size: 22px;
+}
+
+.container_metodo_right
+{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    padding: 7vh;
+    justify-content: center;
+}
+
+.container_metodo_right_item
+{
+    display: flex;
+    padding: 1vh 0;
+}
+
+.container_metodo_right_item *
+{
+    margin: 0 1vh;
+}
+
+.container_receber
+{
+    background-color: black;
+    width: 100%;
+    padding: 10vh;
+}
+
+.container_receber_titulo *
+{
+    text-align: center;
+    color: white;
+    padding-bottom: 2vh;
+}
+
+.container_receber_card_grupo
+{
+    padding: 4vh 0;
+    display: flex;
+    justify-content: center;
+}
+
+.container_receber_card
+{
+    width: 20%;
+    padding: 4vh;
+    border: 1px solid white;
+    color: white;
+    margin: 0 5vh;
+    text-align: left;
+    border-radius: 5px;
+}
+
+.container_receber_card i
+{
+    font-size: 30px;
+    padding-bottom: 2vh;
+    color: orangered;
+}
+
+.container_receber_card p
+{
+    font-size: 18px;
+}
+
+.container_receber_btn
+{
+    width: 100%;
+    padding: 4vh;
+    text-align: center;
+}
+
+.container_receber_btn button
+{
+    border: none;
+    background-color: orangered;
+    font-weight: bold;
+    width: 30%;
+    padding: 2vh;
+    font-size: 28px;
+    font-weight: bold;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+}
+
+.container_receber_btn button:hover
+{
+    width: 50%;
+    padding: 4vh 2vh;
+    z-index: 1;
+    transition: 0.5s;
+}
+
+.container_alem_receber
+{
+    background-color: orangered;
+    width: 100%;
+    padding: 10vh;
+}
+
+.container_alem_receber_titulo 
+{
+    text-align: center;
+}
+
+.container_alem_receber_titulo *
+{
+    color: white;
+    padding-bottom: 5vh;
+}
+
+.container_alem_receber_card_grupo
+{
+    display: flex;
+    justify-content: center;
+}
+
+.container_alem_receber_card
+{
+    width: 20%;
+    border: 1px solid white;
+    margin: 0 2vh;
+    border-radius: 5px;
+    padding-bottom: 2vh;
+    color: black;
+    background-color: white;
+}
+
+.container_alem_receber_card img
+{
+    width: 100%;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    object-fit: cover;
+    height: 35vh;
+}
+
+.container_alem_receber_card h3
+{
+    padding: 2vh;
+}
+
+.container_alem_receber_card p
+{
+    padding: 0 2vh;
+}
+
+.container_alem_receber_btn
+{
+    padding-top: 6vh;
+    width: 100%;
+    text-align: center;
+}
+
+.container_alem_receber_btn button
+{
+    border: none;
+    background-color: black;
+    font-weight: bold;
+    width: 30%;
+    padding: 2vh;
+    font-size: 28px;
+    font-weight: bold;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+}
+
+.container_alem_receber_btn button:hover
+{
+    width: 50%;
+    padding: 4vh 2vh;
+    z-index: 1;
+    transition: 0.5s;
+}
+
+.container_preco
+{
+    width: 100%;
+    background-color: black;
+    text-align: center;
+    padding: 10vh;
+}
+
+.container_preco_titulo_pequeno *
+{
+    color: orangered;
+    padding: 3vh;
+}
+
+.container_preco_titulo_grande *
+{
+    font-weight: bold;
+    color: white;
+    font-size: 50px;
+}
+
+.container_preco_preco_grande *
+{
+    color: white;
+    font-weight: bolder;
+    font-size: 100px;
+    padding-top: 3vh;
+}
+
+.container_preco_preco_grande span
+{
+    font-size: 50px;
+}
+
+.container_preco_preco_parcelado *
+{
+    color: white;
+    font-size: 20px;
+}
+
+.container_preco_btn
+{
+    padding-top: 4vh;
+}
+
+.container_preco_btn button
+{
+    border: none;
+    background-color: orangered;
+    font-weight: bold;
+    width: 40%;
+    padding: 2vh;
+    font-size: 28px;
+    font-weight: bold;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+}
+
+.container_preco_btn button:hover
+{
+    width: 50%;
+    padding: 4vh 2vh;
+    z-index: 1;
+    transition: 0.5s;
+}
+
+.container_preco_btn_titulo
+{
+    color: gray;
+    display: flex;
+    justify-content: center;
+    padding-top: 3vh;
+}
+
+.container_preco_btn_titulo *
+{
+    margin: 0 1vh;
+}
+
+.container_preco_pagamento
+{
+    color: gray;
+}
+
+.container_preco_pagamento *
+{
+    margin: 3vh;
+    font-size: 35px;
+}
+
+.container_garantia
+{
+    display: flex;
+    width: 100%;
+    background-color: orangered;
+    padding: 8vh;
+}
+
+.container_garantia_left
+{
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 5vh;
+}
+
+.container_garantia_left img
+{
+    width: 50%;
+}
+
+.container_garantia_right
+{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 5vh 8%;
+}
+
+.container_garantia_right *
+{
+    font-size: 20px;
+}
+
+.container_assistir
+{
+    width: 100%;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+}
+
+.container_assistir_left
+{
+    width: 30%;
+    font-size: 25px;
+    padding: 24vh 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container_assistir_right
+{
+    width: 40%;
+    display: flex;
+    justify-content: center;
+}
+
+.container_assistir_right img
+{
+    width: 100%;
+    bottom: 0;
+    text-align: center;
+    object-fit: cover;
+}
+
+.container_faq
+{
+    width: 100%;
+    background-color: orangered;
+    padding-bottom: 10vh;
+}
+
+.container_faq_titulo
+{
+    color: white;
+    text-align: center;
+    padding: 8vh 0 3vh 0;
+    font-weight: bolder;
+    font-size: 30px;
+}
+
+.container_faq_question
+{
+    width: 50%;
+    margin: auto;
+}
+
+.container_faq_question details
+{
+    border-bottom: 1px solid white;
+    padding: 2vh;
+    margin: 2vh 0;
+    color: white;
+}
+
+.text_perguntas
+{
+    color: white;
+    padding: 2vh;
+}
+
+.container_rodape
+{
+    width: 100%;
+    background-color: black;
+    color: white;
+    padding: 5vh;
+    text-align: center;
+}
+
+@media only screen and (max-width: 1000px)
+{
+    .container_principal
+    {
+        flex-direction: column-reverse;
+        width: 100%;
+        align-items: center;
+    }
+    .container_principal_left
+    {
+        width: 90%;
+    }
+    .container_frase
+    {
+        flex-direction: column;
+        align-items: center;
+    }
+    .container_frase_left 
+    {
+        width: 90%;
+        padding: 8vh 2vh 2vh 2vh;
+    }
+    .container_frase_right 
+    {
+        width: 90%;
+        padding: 2vh 2vh 8vh 2vh;
+    }
+    .container_about_card_grupo
+    {
+        flex-direction: column;
+        align-items: center;
+    }
+    .container_about_card
+    {
+        width: 70%;
+        margin: 2vh;
+    }
+    .container_about_btn button
+    {
+        width: 70%;
+    }
+    .container_about_btn button:hover
+    {
+        width: 80%;
+    }
+    .container_metodo
+    {
+        flex-direction: column
+    }
+    .container_metodo_left
+    {
+        width: 100%;
+    }
+    .container_metodo_right
+    {
+        width: 100%;
+    }
+    .container_receber_card_grupo
+    {
+        flex-direction: column;
+        align-items: center;
+    }
+    .container_receber_card
+    {
+        margin: 2vh;
+    }
+    .container_receber_btn button
+    {
+        width: 70%;
+    }
+    .container_receber_btn button:hover
+    {
+        width: 80%;
+    }
+    .container_alem_receber_card_grupo
+    {
+        flex-direction: column;
+        align-items: center;
+    }
+    .container_alem_receber_card
+    {
+        width: 70%;
+        margin: 2vh;
+    }
+    .container_alem_receber_btn button
+    {
+        width: 70%;
+    }
+    .container_alem_receber_btn button:hover
+    {
+        width: 80%;
+    }
+    .container_preco_btn button
+    {
+        width: 80%;
+    }
+    .container_preco_btn button:hover
+    {
+        width: 90%;
+    }
+    .container_garantia
+    {
+        flex-direction: column;
+        align-items: center;
+    }
+    .container_garantia_left
+    {
+        width: 100%;
+    }
+    .container_garantia_right
+    {
+        width: 100%;
+    }
+    .container_assistir
+    {
+        flex-direction: column;
+        align-items: center;
+    }
+    .container_assistir_left
+    {
+        width: 100%;
+        padding: 15vh;
+    }
+    .container_assistir_right
+    {
+        width: 100%;
+    }
+    .container_assistir img
+    {
+        padding-right: 20%;
+    }
+    .container_faq_question
+    {
+        width: 80%;
+    }
+}
